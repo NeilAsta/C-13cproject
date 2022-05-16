@@ -12,9 +12,9 @@ function preload(){
   blue_balloonImage = loadImage("blue_balloon0.png");
 
   red_balloonImage = loadImage("red_balloon0.png");
-   red_balloonImage = loadImage("redballoon0.png");
-   red_balloonImage = loadImage("red_balloon0");
-  red_balloonImage = loadImage("red_balloon0.png");
+   //red_balloonImage = loadImage("redballoon0.png");
+   //red_balloonImage = loadImage("red_balloon0");
+ // red_balloonImage = loadImage("red_balloon0.png");
   
 }
 
@@ -98,7 +98,7 @@ function draw() {
  }
 
  function redBalloon() {
-   var red = createSprite(,Math.round(random(20, 370)),50, 10, 10);
+   var red = createSprite(Math.round(random(20, 370)),50, 10, 10);
    red.addImage(red_balloonImage);
    red.velocityX = 3;
   red.lifetime = 150;
